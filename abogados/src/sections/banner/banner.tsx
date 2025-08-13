@@ -26,7 +26,7 @@ const Banner: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                
+                {/* @ts-ignore */}
                 <model-viewer
                     src="/Justice_Monument_0811014441_texture.glb"
                     ar
@@ -37,6 +37,7 @@ const Banner: React.FC = () => {
                     shadow-intensity="1"
                     style={{ width: '100%', height: '100%', paddingTop: 120}}
                     className="libertyS">
+                {/* @ts-ignore */}
                 </model-viewer>
               </div>
               <div className="ab-bann">
