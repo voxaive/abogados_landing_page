@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/abogados_landing_page/",
+  base: "https://voxaive.github.io/abogados_landing_page/",
 })
